@@ -1,0 +1,2 @@
+module PrologHelper
+end
