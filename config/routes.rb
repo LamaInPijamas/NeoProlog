@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   post "prolog/execute", to: "prolog#execute", as: "prolog_execute"
   get "prolog/result", to: "prolog#result", as: "prolog_result"
   root "prolog#new"
+  get "pages/about", to: "about#index"
 end
